@@ -29,8 +29,15 @@ namespace Ads_League.Business
                 }
             }
 
+            InsertResults(request, groups);
+
             response.Groups = groups;            
             return response;
+        }
+
+        private void InsertResults(MakeDrawingRequestModel request, List<GroupModel> groups)
+        {
+            
         }
 
         private List<TeamModel> GetAllTeamsShuffled()
