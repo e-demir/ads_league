@@ -21,5 +21,8 @@
     <ProjectReference Include="..\Ads_League.Common\Ads_League.Common.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\Ads_League.DataAccess\Ads_League.DataAccess.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>

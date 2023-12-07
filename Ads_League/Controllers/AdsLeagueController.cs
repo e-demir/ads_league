@@ -16,15 +16,19 @@ namespace Ads_League.Controllers
             _businessLayer = businessLayer;
         }
 
-        [HttpPost]
-        public MakeDrawingResponseModel MakeDrawing (MakeDrawingRequestModel request)
+        [HttpPost("MakeDrawing")]
+        public ActionResult MakeDrawing (MakeDrawingRequestModel request)
         {
             Guard.Against.Null(request);
             Guard.Against.NullOrEmpty(request.Name);
             Guard.Against.NullOrEmpty(request.SurName);
-           
+            if (request.GroupCount != 4 && request.GroupCount != 8)
+            {
+                return BadRequest("Group number must be 4 or 8.");
+            }
+
             var response = _businessLayer.MakeDrawing(request);
-            return response;
+            return Ok(response);
         }
     }
 }

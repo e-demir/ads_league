@@ -1,9 +1,18 @@
 ﻿using Ads_League.Common;
+using Ads_League.Common.Models.Request;
+using Ads_League.DataAccess;
 
 namespace Ads_League.Business
 {
     public class BusinessLayer : IBusinessLayer
     {
+        private readonly IDrawingRepository _drawingRepository;
+
+        public BusinessLayer(IDrawingRepository drawingRepository)
+        {
+            _drawingRepository = drawingRepository;
+        }
+
         public MakeDrawingResponseModel MakeDrawing(MakeDrawingRequestModel request)
         {
             var teams = GetAllTeamsShuffled();
@@ -18,7 +27,7 @@ namespace Ads_League.Business
             {
                 foreach (var group in groups)
                 {
-                    var availableTeams = teams.Where(x => !x.IsSelected && !group.Teams.Any(y => y.Country?.CountryName == y.Country?.CountryName)).ToList();
+                    var availableTeams = teams.Where(x => !x.IsSelected && !group.Teams.Any(y => y.Country?.CountryName == x.Country?.CountryName)).ToList();
 
                     if (availableTeams.Any())
                     {
@@ -37,15 +46,24 @@ namespace Ads_League.Business
 
         private void InsertResults(MakeDrawingRequestModel request, List<GroupModel> groups)
         {
-            
+            var insertDrawingRequest = HandleInsertDrawingResult(request, groups);
+            _drawingRepository.InsertDrawing(insertDrawingRequest);
         }
 
-        private List<TeamModel> GetAllTeamsShuffled()
+        private static InsertDrawingResultRequest HandleInsertDrawingResult(MakeDrawingRequestModel request, List<GroupModel> groups)
+        {
+            var insertRequest = new InsertDrawingResultRequest();
+            insertRequest.DrawerInformation = string.Concat(request.Name, " ", request.SurName);
+            insertRequest.Groups = groups;
+            return insertRequest;
+        }
+
+        private static List<TeamModel> GetAllTeamsShuffled()
         {
             return GetTeams().OrderBy(x => Guid.NewGuid()).ToList();
         }
 
-        private List<GroupModel> CreateGroupsByRequestCount(int groupCount)
+        private static List<GroupModel> CreateGroupsByRequestCount(int groupCount)
         {
             return GetEmptyGroups().Take(groupCount).ToList();            
         }

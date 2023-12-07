@@ -1053,6 +1053,16 @@
             "rid": "win"
           }
         }
+      },
+      "Ads_League.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Ads_League.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ads_League.Common.dll": {}
+        }
       }
     }
   },
@@ -2875,10 +2885,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Ads_League.Common/1.0.0": {
+      "type": "project",
+      "path": "../Ads_League.Common/Ads_League.Common.csproj",
+      "msbuildProject": "../Ads_League.Common/Ads_League.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Ads_League.Common >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.14"
     ]
@@ -2907,7 +2923,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj": {
+              "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

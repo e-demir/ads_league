@@ -16,5 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ads_League.Common\Ads_League.Common.csproj" />
+    <ProjectReference Include="..\Ads_League.DataAccess\Ads_League.DataAccess.csproj" />
   </ItemGroup>
 </Project>
