@@ -1,0 +1,357 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/devdemir/Projects/Ads_League/Ads_League.Test/Ads_League.Test.csproj": {}
+  },
+  "projects": {
+    "/Users/devdemir/Projects/Ads_League/Ads_League.Business/Ads_League.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/devdemir/Projects/Ads_League/Ads_League.Business/Ads_League.Business.csproj",
+        "projectName": "Ads_League.Business",
+        "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Business/Ads_League.Business.csproj",
+        "packagesPath": "/Users/devdemir/.nuget/packages/",
+        "outputPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/devdemir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj": {
+                "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj"
+              },
+              "/Users/devdemir/Projects/Ads_League/Ads_League.DataAccess/Ads_League.DataAccess.csproj": {
+                "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.DataAccess/Ads_League.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj",
+        "projectName": "Ads_League.Common",
+        "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj",
+        "packagesPath": "/Users/devdemir/.nuget/packages/",
+        "outputPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/devdemir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/devdemir/Projects/Ads_League/Ads_League.DataAccess/Ads_League.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/devdemir/Projects/Ads_League/Ads_League.DataAccess/Ads_League.DataAccess.csproj",
+        "projectName": "Ads_League.DataAccess",
+        "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.DataAccess/Ads_League.DataAccess.csproj",
+        "packagesPath": "/Users/devdemir/.nuget/packages/",
+        "outputPath": "/Users/devdemir/Projects/Ads_League/Ads_League.DataAccess/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/devdemir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj": {
+                "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/devdemir/Projects/Ads_League/Ads_League.Test/Ads_League.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/devdemir/Projects/Ads_League/Ads_League.Test/Ads_League.Test.csproj",
+        "projectName": "Ads_League.Test",
+        "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Test/Ads_League.Test.csproj",
+        "packagesPath": "/Users/devdemir/.nuget/packages/",
+        "outputPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/devdemir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj": {
+                "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj"
+              },
+              "/Users/devdemir/Projects/Ads_League/Ads_League/Ads_League.csproj": {
+                "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League/Ads_League.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/devdemir/Projects/Ads_League/Ads_League/Ads_League.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/devdemir/Projects/Ads_League/Ads_League/Ads_League.csproj",
+        "projectName": "Ads_League",
+        "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League/Ads_League.csproj",
+        "packagesPath": "/Users/devdemir/.nuget/packages/",
+        "outputPath": "/Users/devdemir/Projects/Ads_League/Ads_League/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/devdemir/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/devdemir/Projects/Ads_League/Ads_League.Business/Ads_League.Business.csproj": {
+                "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Business/Ads_League.Business.csproj"
+              },
+              "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj": {
+                "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj"
+              },
+              "/Users/devdemir/Projects/Ads_League/Ads_League.DataAccess/Ads_League.DataAccess.csproj": {
+                "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.DataAccess/Ads_League.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

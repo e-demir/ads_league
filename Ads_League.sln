@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ads_League.Common", "Ads_Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ads_League.DataAccess", "Ads_League.DataAccess\Ads_League.DataAccess.csproj", "{34D2DA39-67CF-4158-ACC5-44F3093E1B14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ads_League.Test", "Ads_League.Test\Ads_League.Test.csproj", "{F1529ABF-712A-4E2B-9A80-5FDBFC88A9F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{34D2DA39-67CF-4158-ACC5-44F3093E1B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34D2DA39-67CF-4158-ACC5-44F3093E1B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34D2DA39-67CF-4158-ACC5-44F3093E1B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1529ABF-712A-4E2B-9A80-5FDBFC88A9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1529ABF-712A-4E2B-9A80-5FDBFC88A9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1529ABF-712A-4E2B-9A80-5FDBFC88A9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1529ABF-712A-4E2B-9A80-5FDBFC88A9F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
