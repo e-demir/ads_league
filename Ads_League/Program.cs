@@ -1,10 +1,13 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿using Ads_League.Business;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddTransient<IBusinessLayer, BusinessLayer>();
 
 var app = builder.Build();
 

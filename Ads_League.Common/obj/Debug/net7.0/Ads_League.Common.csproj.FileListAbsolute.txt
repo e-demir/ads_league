@@ -1,0 +1,12 @@
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/bin/Debug/net7.0/Ads_League.Common.deps.json
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/bin/Debug/net7.0/Ads_League.Common.dll
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/bin/Debug/net7.0/Ads_League.Common.pdb
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/obj/Debug/net7.0/Ads_League.Common.csproj.AssemblyReference.cache
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/obj/Debug/net7.0/Ads_League.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/obj/Debug/net7.0/Ads_League.Common.AssemblyInfoInputs.cache
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/obj/Debug/net7.0/Ads_League.Common.AssemblyInfo.cs
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/obj/Debug/net7.0/Ads_League.Common.csproj.CoreCompileInputs.cache
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/obj/Debug/net7.0/Ads_League.Common.dll
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/obj/Debug/net7.0/refint/Ads_League.Common.dll
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/obj/Debug/net7.0/Ads_League.Common.pdb
+/Users/devdemir/Projects/Ads_League/Ads_League.Common/obj/Debug/net7.0/ref/Ads_League.Common.dll

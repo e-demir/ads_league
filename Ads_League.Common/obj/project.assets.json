@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Ads_League.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Ads_League.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Ads_League.Common.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Ads_League.Common/1.0.0": {
-      "type": "project",
-      "path": "../Ads_League.Common/Ads_League.Common.csproj",
-      "msbuildProject": "../Ads_League.Common/Ads_League.Common.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Ads_League.Common >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "/Users/devdemir/.nuget/packages/": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/devdemir/Projects/Ads_League/Ads_League.Business/Ads_League.Business.csproj",
-      "projectName": "Ads_League.Business",
-      "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Business/Ads_League.Business.csproj",
+      "projectUniqueName": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj",
+      "projectName": "Ads_League.Common",
+      "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj",
       "packagesPath": "/Users/devdemir/.nuget/packages/",
-      "outputPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Business/obj/",
+      "outputPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/devdemir/.nuget/NuGet/NuGet.Config"
@@ -50,11 +31,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj": {
-              "projectPath": "/Users/devdemir/Projects/Ads_League/Ads_League.Common/Ads_League.Common.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

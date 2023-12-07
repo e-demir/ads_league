@@ -7,14 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Interface\" />
-    <None Remove="Concrete\" />
+    <None Remove="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interface\" />
-    <Folder Include="Concrete\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Ads_League.Common\Ads_League.Common.csproj" />
+    <Folder Include="Models\" />
   </ItemGroup>
 </Project>
